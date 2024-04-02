@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL3zaQDoknE"
+#define BLYNK_TEMPLATE_ID ""
 #define BLYNK_TEMPLATE_NAME "Health Monitoring System"
-#define BLYNK_AUTH_TOKEN "ml07tZI-NEQxEc3LEba9_MZ0BMj9v0x7"
+#define BLYNK_AUTH_TOKEN ""
 
 #define BLYNK_PRINT Serial
 #include <ESP8266WiFi.h>
@@ -22,11 +22,11 @@ float tempThreshold = 37.0; // Initial temperature threshold in Celsius
 int pulseThreshold = 100; // Initial pulse rate threshold
 
 // Twilio account credentials
-const char* twilioAccountSID = "AC9d640dd3f04e59956666d61c7b871e5a";
-const char* twilioAuthToken = "c6a6aa0d3cbab9bcc784fb37385e2a45";
-const char* twilioPhoneNumber = "+17609708339";
-const char* doctorPhoneNumber = "+919488230126";
-const char* patientPhoneNumber = "+919566188859";
+const char* twilioAccountSID = "";
+const char* twilioAuthToken = "";
+const char* twilioPhoneNumber = "";
+const char* doctorPhoneNumber = "";
+const char* patientPhoneNumber = "";
 
 WiFiClientSecure client;
 
